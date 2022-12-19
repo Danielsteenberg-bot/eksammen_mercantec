@@ -1,0 +1,94 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Farver */
+/* https://colorhunt.co/palette/f9a828ececeb07617d2e383f */
+
+
+:root{
+    --font-big: 900;
+    --font-bold: 700;
+    --font-normal: 400;
+    --font-small: 200;
+    --font-size-xxl: 9vw;
+    --font-size-xl: 7vw;
+    --font-size-md: 5vw;
+    --font-size-small: 3vw;
+    --font-size-xs: 1vw;
+
+
+    --font: 'Poppins', sans-serif;
+    --yellow: #f9a828;
+    --grey: #ececeb;
+    --blue: #07616D;
+    --black: #2e383f;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--font);
+}
+
+
+.nav-wrapper a{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: var(--blue);
+}
+
+img{
+    width: 25%;
+}
+
+.main-container{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 75vh;
+    background-color: var(--grey);
+
+}
+
+
+
+.list-container{
+    list-style: none;
+    width: 100%;
+
+}
+
+.list-item{
+font-size: var(--font-size-md);
+
+}
+
+.list-item a{
+    text-decoration: none;
+    color: var(--black);
+    width: 100%;
+}
+
+.list-item a:hover{
+    color: var(--yellow);
+    background-color: var(--blue);
+}
+
+.list-item:hover{
+    color: var(--yellow);
+    width: 100%;
+}
+
+
+footer{
+    width: 100%;
+}
+
+.nav-wrapper a{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: var(--blue);
+}
