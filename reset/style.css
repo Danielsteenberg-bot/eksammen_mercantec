@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+:root { 
+    /* Font Weight */
+    --font-big: 900;
+    --font-bold: 700;
+    --font-normal: 400;
+    --font-small: 200;
+
+    /* Font Size */
+    --font-size-xxl: 9vw;
+    --font-size-xl: 7vw;
+    --font-size-md: 5vw;
+    --font-size-small: 3vw;
+    --font-size-xs: 1vw;
+
+    /* Font */
+    --font: 'Poppins';
+
+    /* Farver */
+    --yellow: #f9a828;
+    --grey: #ececeb;
+    --blue: #07616D;
+    --black: #2e383f;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--font);
+}
+
+
+
+.nav-wrapper a {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: var(--blue);
+}
+
+.footer-container{
+    position: absolute;
+    bottom: 0;
+}
+
+.footer-wrapper a {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: var(--blue);
+}
+
+img {
+    width: 25%;
+}
+
+/* Content */
+
+.content-main{
+    height: 70vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--black);
+
+}
+
+.lock-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-lock{
+    font-size: 6rem;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    color: var(--yellow);
+}
+
+.lock-container h2{
+    font-size: 3rem;
+    text-align: center;
+    color: var(--grey);
+}
+
+input[type=email] {
+    width: 100%;
+    background-color: var(--blue);
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-size: 1rem;
+    border: 2px solid var(--yellow);
+    color: var(--grey);
+    margin: 20px;
+
+  }
+
+  .lock-container button{
+    background-color: var(--blue);
+    border: 2px solid var(--yellow);
+    color: var(--grey);
+    padding: 10px;
+    font-size: 1.2rem;
+
+  }
+
+
+/* Responsive  */
+@media screen and (max-width: 480px) {
+  
+    .content-main{
+        height: 80vh;
+    }
+
+    img{
+        width: 50%;
+    }
+
+  }

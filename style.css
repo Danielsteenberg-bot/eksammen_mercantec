@@ -15,7 +15,7 @@
     /* Font Size */
     --font-size-xxl: 9vw;
     --font-size-xl: 7vw;
-    --font-size-md: 5vw;
+    --font-size-md: 4vw;
     --font-size-small: 3vw;
     --font-size-xs: 1vw;
 
@@ -62,6 +62,7 @@ img {
 .list-container {
     list-style: none;
     width: 100%;
+    text-align: left;
 
 }
 

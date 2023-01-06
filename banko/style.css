@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+:root { 
+    /* Font Weight */
+    --font-big: 900;
+    --font-bold: 700;
+    --font-normal: 400;
+    --font-small: 200;
+
+    /* Font Size */
+    --font-size-xxl: 9vw;
+    --font-size-xl: 7vw;
+    --font-size-md: 5vw;
+    --font-size-small: 3vw;
+    --font-size-xs: 1vw;
+
+    /* Font */
+    --font: 'Poppins';
+
+    /* Farver */
+    --yellow: #f9a828;
+    --grey: #ececeb;
+    --blue: #07616D;
+    --black: #2e383f;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--font);
+}
+
+
+
+.nav-wrapper a {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: var(--blue);
+}
+
+.footer-container{
+    position: absolute;
+    bottom: 0;
+}
+
+.footer-wrapper a {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: var(--blue);
+}
+
+img {
+    width: 25%;
+}
+
+/* Banko */
+
+.banko-main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.banko-main-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 1rem;
+    background-color: var(--black);
+}
+
+
+.banko-first-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.banko-card{
+    height: 50px;
+    width: 50px;
+    background-color: var(--black);
+    border: var(--blue) 2px solid;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.clicked{
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    color: var(--grey);
+}
+
+
+/* Skjul få plader knap */
+.remove{
+    display: none;
+}
+
+
+/* Skjul reset knap som default */
+.resetBTN{
+    display: none;
+}
+
+/* Vis reset knap */
+.show{
+    display: block;
+}
