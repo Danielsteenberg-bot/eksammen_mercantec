@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Root er en opretelse af variabler så vi kan kalde en værdi flere steder men ved ændring skal den kun skiftes et sted 
+eks: hvis vi vil have en anden blå farve ændre vi bare --blue farven også er den ændret alle steder der har variablen --blue  
+*/
+
+:root { 
+    /* Font Weight */
+    --font-big: 900;
+    --font-bold: 700;
+    --font-normal: 400;
+    --font-small: 200;
+
+    /* Font Size */
+    --font-size-xxl: 9vw;
+    --font-size-xl: 7vw;
+    --font-size-md: 5vw;
+    --font-size-small: 3vw;
+    --font-size-xs: 1vw;
+
+    /* Font */
+    --font: 'Poppins';
+
+    /* Farver */
+    --yellow: #f9a828;
+    --grey: #ececeb;
+    --blue: #07616D;
+    --black: #2e383f;
+}
+
+
+/* Gode standarder for en side + font*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--font);
+}
+
+
+/* Navigation style */
+.nav-wrapper a {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: var(--blue);
+}
+
+
+/* footer style */
+.footer-container{
+    position: absolute;
+    bottom: 0;
+}
+
+.footer-wrapper a {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: var(--blue);
+}
+
+img {
+    width: 25%;
+}
+
+/* Content styleing */
+
+/* content kasse style  */
+.content-main{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--black);
+}
+
+/* Knap style */
+
+.content-main button{
+    background-color: var(--blue);
+    border: 2px solid var(--yellow);
+    color: var(--grey);
+    padding: 10px;
+    font-size: 1.2rem;
+}
+
+.firstBTN{
+    position: absolute;
+    left: 10%;
+    top: 20%;
+}
+
+.secoundBTN{
+    position: absolute;
+    right: 10%;
+    top: 20%;
+}
+
+.fa-network-wired{
+    font-size: var(--font-size-xxl);
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    color: var(--yellow);
+}
+
+.default-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-main h2{
+    font-size: var(--font-size-md);
+    text-align: center;
+    color: var(--grey);
+}
+
+/* IMG styles + aktiv */
+.first-img-container{
+    background-image: url(../assets/network/maciek-sulkowski-xtqNm3YOup8-unsplash.jpg);
+    height: 80vh;
+    width: 100vw;
+    background-size: cover;
+    display: none;
+}
+
+.secound-img-container{
+    background-image: url(../assets/network/maciek-sulkowski-XtU9QnauM9k-unsplash.jpg);
+    height: 80vh;
+    width: 100vw;
+    background-size: cover;
+    display: none;
+}
+
+.active{
+    display: block;
+}
+
+.remove{
+    display: none;
+}

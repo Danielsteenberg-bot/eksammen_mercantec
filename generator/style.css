@@ -1,2 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Root er en opretelse af variabler så vi kan kalde en værdi flere steder men ved ændring skal den kun skiftes et sted 
+eks: hvis vi vil have en anden blå farve ændre vi bare --blue farven også er den ændret alle steder der har variablen --blue  
+*/
+
+:root { 
+    /* Font Weight */
+    --font-big: 900;
+    --font-bold: 700;
+    --font-normal: 400;
+    --font-small: 200;
+
+    /* Font Size */
+    --font-size-xxl: 9vw;
+    --font-size-xl: 7vw;
+    --font-size-md: 5vw;
+    --font-size-small: 3vw;
+    --font-size-xs: 1vw;
+
+    /* Font */
+    --font: 'Poppins';
+
+    /* Farver */
+    --yellow: #f9a828;
+    --grey: #ececeb;
+    --blue: #07616D;
+    --black: #2e383f;
+}
 
 
+/* Gode standarder for en side + font*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--font);
+}
+
+
+/* Navigation style */
+.nav-wrapper a {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: var(--blue);
+}
+
+
+/* footer style */
+.footer-container{
+    position: absolute;
+    bottom: 0;
+}
+
+.footer-wrapper a {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: var(--blue);
+}
+
+img {
+    width: 25%;
+}
+
+/* Content styleing */
+
+/* Style til kassen der holder vores "content" aka password generatoren */
+.main-container{
+    height: 70vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--black);
+}
+
+/* Sørger for at tingene står i en kollone */
+.theBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Input felt hvor password kommer style */
+.main-container input{
+    width: 100%;
+    background-color: var(--blue);
+    box-sizing: border-box;
+    font-size: var(--font-md);
+    border: 2px solid var(--yellow);
+    color: var(--grey);
+    padding: 12px 20px;
+    margin: 8px 0;
+}
+
+/* Style til knappen */
+.main-container button{
+    background-color: var(--blue);
+    border: 2px solid var(--yellow);
+    color: var(--grey);
+    padding: 10px;
+    font-size: var(--font-md);
+}
+
+/* Style til nøgle ikon */
+.fa-key{
+    font-size: 6rem;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    color: var(--yellow);
+}
+
+.main-container h2{
+    font-size: 3rem;
+    text-align: center;
+    color: var(--grey);
+}

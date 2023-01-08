@@ -1,14 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="da">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Generator</title>
-
+    <title>Password Generator</title>
+    
+    <!-- CSS -->
     <link rel="stylesheet" href="style.css">
+
+    <!-- font-awesome -->
+    <script src="https://kit.fontawesome.com/7c9eddd821.js" crossorigin="anonymous"></script>
+
+
+
+
 </head>
 <body>
-    <div>Hello world</div>
+
+    <div>
+        <div class="nav-container">
+            <div class="nav-wrapper">
+                <a href="../index.html">
+                    <img src="../assets/logo/box-high-resolution-logo-color-on-transparent-background.png" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+<div class="main-container">
+ <div class="theBox">
+     <i class="fa-sharp fa-solid fa-key"></i>
+    <h2>Password Generator</h2>
+    <input type="text" placeholder id="Lavpassword"readonly="">
+        <button id= "btn" onclick="getPassword()">
+            Get Password
+        </button> 
+    </div>
+</div>
+
+
+
+
+ <footer>
+    <div class="footer-container">
+        <div class="footer-wrapper">
+            <a href="../index.html">
+                <img src="../assets/logo/box-high-resolution-logo-color-on-transparent-background.png" alt="">
+            </a>
+        </div>
+    </div>
+</footer> 
+    
+
+    <!-- JS -->
+    <script src="script.js" ></script>
 </body>
 </html>
