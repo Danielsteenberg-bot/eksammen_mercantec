@@ -1,13 +1,20 @@
 import ansatte from "../ansatte/js/ansatte.js"
 
 
-const inputEmail = document.querySelector(".email")
+const inputText = document.querySelector(".text")
 const sendBTN = document.querySelector(".reset");
+
+/* Main container hide landing og hvis succes hvis det hele går godt  */
+const hideContainer = document.querySelector(".lock-container")
+const succesContainer = document.querySelector(".lock-container-succes")
+
+/* fejl besked */
+const error = document.querySelector(".error");
 
 function validateID(){
 
     /* Opret variable med værdien fra input feltet når vi trykker på knappen */
-    let inputValue = inputEmail.value;
+    let inputValue = inputText.value;
 
     for(let a = 0; a < ansatte.length; a++){
 
@@ -15,15 +22,16 @@ function validateID(){
 
     /* Tjekker om input mail findes i vores array og returnere true hvis den finder den  */
         if(ansatte[a].id == inputValue ){
-            console.log("din mail findes")
-            alert("Tilykke!")
+            succesContainer.classList.add("active")
+            hideContainer.classList.add("remove")
             return true
         }
 
     /* Hvis den ikke findes giver den os false*/
 
         if(ansatte[a].id != inputValue ){
-            console.log("din mail findes ikke")
+            inputText.classList.add("fejl")
+            error.classList.add("eror-active")
         }
     }
 }

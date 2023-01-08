@@ -97,3 +97,22 @@ footer {
     padding: 20px;
     background-color: var(--blue);
 }
+
+/* Responsive  */
+@media screen and (max-width: 480px) {
+  
+    .content-main{
+        height: 100vh;
+    }
+
+    img{
+        width: 50%;
+    }
+
+    .list-item {
+        font-size: var(--font-size-xxl);
+    
+    }
+
+
+  }

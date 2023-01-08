@@ -13,7 +13,7 @@
     --font-size-xl: 7vw;
     --font-size-md: 5vw;
     --font-size-small: 3vw;
-    --font-size-xs: 1vw;
+    --font-size-xs: 1.5vw;
 
     /* Font */
     --font: 'Poppins';
@@ -68,6 +68,8 @@ img {
 
 }
 
+/* styles til start container */
+
 .lock-container{
     display: flex;
     flex-direction: column;
@@ -75,21 +77,24 @@ img {
     align-items: center;
 }
 
+/* Ikon styles */
 .fa-lock{
-    font-size: 6rem;
+    font-size: var(--font-size-xl);
     display: flex;
     justify-content: center;
     padding: 15px;
     color: var(--yellow);
 }
 
+/* Tekst styles */
 .lock-container h2{
-    font-size: 3rem;
+    font-size: var(--font-size-small);
     text-align: center;
     color: var(--grey);
 }
 
-input[type=email] {
+/* input styles */
+input[type=text] {
     width: 100%;
     background-color: var(--blue);
     padding: 12px 20px;
@@ -98,19 +103,90 @@ input[type=email] {
     font-size: 1rem;
     border: 2px solid var(--yellow);
     color: var(--grey);
-    margin: 20px;
+    margin: 30px;
 
   }
 
+  /* knap styles */
   .lock-container button{
     background-color: var(--blue);
     border: 2px solid var(--yellow);
     color: var(--grey);
     padding: 10px;
-    font-size: 1.2rem;
+    font-size: var(--font-size-xs);
 
   }
 
+/* Container der vises hvis id er korrekt */
+  .lock-container-succes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.lock-container-succes h2{
+    font-size: var(--font-size-small);
+    text-align: center;
+    color: var(--grey);
+    margin: 15px;
+}
+
+.lock-container-succes button{
+    background-color: var(--blue);
+    border: 2px solid var(--yellow);
+    color: var(--grey);
+    padding: 25px;
+    font-size: var(--font-size-xs);
+  }
+
+  .fa-lock-open{
+    font-size: var(--font-size-xl);
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    color: var(--yellow);
+}
+
+/* Sørger for at containeren bliver vist hvis alt er godt og opsætning af denne */
+.active{
+    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.succesBTN{
+    background-color: var(--blue);
+    border: 2px solid var(--yellow);
+    color: var(--grey);
+    padding: 10px;
+    font-size: var(--font-size-xs);
+    text-decoration: none;
+}
+
+/* Gemmer default container */
+.remove{
+    display: none;
+}
+
+
+/* Fejl styles */
+.error{
+    color: red;
+    font-size: var(--font-size-xs);
+    display: none;
+}
+
+.eror-active{
+    display: block;
+}
+
+.fejl{
+    background-color: red !important;
+}
 
 /* Responsive  */
 @media screen and (max-width: 480px) {
@@ -122,5 +198,30 @@ input[type=email] {
     img{
         width: 50%;
     }
+
+    .lock-container h2{
+        font-size: var(--font-size-xxl);
+
+    }
+
+    .lock-container-succes h2{
+        font-size: var(--font-size-xxl);
+
+    }
+
+    .fa-lock{
+        font-size: 8rem;
+
+    }
+
+    .fa-lock-open{
+        font-size: 8rem;
+
+    }
+
+    .lock-container button{
+        font-size: var(--font-size-md);
+    }
+
 
   }

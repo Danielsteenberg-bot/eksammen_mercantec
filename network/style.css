@@ -143,3 +143,28 @@ img {
 .remove{
     display: none;
 }
+
+/* Responsive  */
+@media screen and (max-width: 480px) {
+  
+    .content-main{
+        height: 80vh;
+    }
+
+    img{
+        width: 50%;
+    }
+
+    .content-main h2{
+        font-size: var(--font-size-xxl);
+        text-align: center;
+        color: var(--grey);
+    }
+
+    .fa-network-wired{
+        font-size: 8rem;
+    }
+
+
+
+  }

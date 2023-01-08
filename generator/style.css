@@ -117,3 +117,28 @@ img {
     text-align: center;
     color: var(--grey);
 }
+
+/* Responsive der ændre style hvis skærmen er mindre end 480px  */
+@media screen and (max-width: 480px) {
+  
+    .main-container{
+        height: 80vh;
+    }
+
+    img{
+        width: 50%;
+    }
+
+    .main-container h2{
+        font-size: var(--font-size-xxl);
+        text-align: center;
+        color: var(--grey);
+    }
+
+    .fa-network-wired{
+        font-size: 8rem;
+    }
+
+
+
+  }
