@@ -55,7 +55,7 @@ const resetBTN = document.querySelector(".resetBTN")
 for(let i = 0; i < bankoCards.length; i++){
 
     /* tilføj random nummer i felterne  */
-    bankoCards[i].classList.add("card"+[i+1])
+    bankoCards[i].classList.add("card"+[i])
 
     bankoCards[i].innerHTML = `<h1 class="cardValue${i}">${randomNumber()}</h1>`
 

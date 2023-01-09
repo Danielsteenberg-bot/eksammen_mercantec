@@ -24,8 +24,8 @@ function validateID(){
         if(ansatte[a].id == inputValue ){
             succesContainer.classList.add("active")
             hideContainer.classList.add("remove")
-            return true
-        }
+/*             return true
+ */        }
 
     /* Hvis den ikke findes giver den os false*/
 
