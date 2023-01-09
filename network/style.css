@@ -123,7 +123,7 @@ img {
 .first-img-container{
     background-image: url(../assets/network/fysisk.png);
     height: 80vh;
-    width: 100vw;
+    width: 80vw;
     background-size: cover;
     display: none;
 }
