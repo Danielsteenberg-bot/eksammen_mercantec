@@ -6,8 +6,7 @@ const ansatte = [
         "efternavn": "Svendsen",
         "email": "svend@cisco.com",
         "kode": "Nykode12",
-        "rettigheder": "Læse/Skrive alle mapper",
-        "network": {ip: "", subnet: ""}        
+        "rettigheder": "Læse/Skrive alle mapper"
     },
     {
         "id": 88002,
@@ -16,8 +15,7 @@ const ansatte = [
         "efternavn": "Brucks",
         "email": "carlos@cisco.com",
         "kode": "Nykode12",
-        "rettigheder": "Læse/skrive HR og lager",
-        "network": {ip: "", subnet: ""}        
+        "rettigheder": "Læse/skrive HR og lager"
     },
     {
         "id": 88003,
@@ -26,8 +24,7 @@ const ansatte = [
         "efternavn": "Harboe",
         "email": "michael@cisco.com",
         "kode": "Nykode12",
-        "rettigheder": "Administrator",
-        "network": {ip: "", subnet: ""}        
+        "rettigheder": "Administrator"
     },
     {
         "id": 88004,
@@ -36,8 +33,7 @@ const ansatte = [
         "efternavn": "Jensen",
         "email": "julie@cisco.com",
         "kode": "Nykode12",
-        "rettigheder": "Læse/Skrive salg",
-        "network": {ip: "", subnet: ""}        
+        "rettigheder": "Læse/Skrive salg"
     },
     {
         "id": 88005,
@@ -46,8 +42,7 @@ const ansatte = [
         "efternavn": "Bendtsen",
         "email": "bent@cisco.com",
         "kode": "Nykode12",
-        "rettigheder": "Læse/Skrive lager",
-        "network": {ip: "", subnet: ""}        
+        "rettigheder": "Læse/Skrive lager"
     },
     {
         "id": 88006,
@@ -56,8 +51,7 @@ const ansatte = [
         "efternavn": "Pedersen",
         "email": "mathilde@cisco.com",
         "kode": "Nykode12",
-        "rettigheder": "Læse/Skrive lager",
-        "network": {ip: "", subnet: ""}             
+        "rettigheder": "Læse/Skrive lager"
     },
     {
         "id": 88007,
@@ -66,8 +60,7 @@ const ansatte = [
         "efternavn": "Petersen",
         "email": "jens@cisco.com",
         "kode": "Nykode12",
-        "rettigheder": "Læse/Skrive lager",
-        "network": {ip: "", subnet: ""}            
+        "rettigheder": "Læse/Skrive lager"
     },
     {
         "id": 88008,
@@ -76,8 +69,7 @@ const ansatte = [
         "efternavn": "Lystlund",
         "email": "herluf@cisco.com",
         "kode": "Nykode12",
-        "rettigheder": "Læse/Skrive lager",
-        "network": {ip: "", subnet: ""}               
+        "rettigheder": "Læse/Skrive lager"
     },
     {
         "id": 88009,
@@ -86,8 +78,7 @@ const ansatte = [
         "efternavn": "Jensen",
         "email": "bente@cisco.com",
         "kode": "Nykode12",
-        "rettigheder": "Læse/Skrive lager",
-        "network": {ip: "", subnet: ""}                
+        "rettigheder": "Læse/Skrive lager"
     },
     {
         "id": 88010,
@@ -96,8 +87,7 @@ const ansatte = [
         "efternavn": "Wilder",
         "email": "hans@cisco.com",
         "kode": "Nykode12",
-        "rettigheder": "Læse/Skrive lager",
-        "network": {ip: "", subnet: ""}            
+        "rettigheder": "Læse/Skrive lager"
     },
     {
         "id": 88011,
@@ -106,8 +96,7 @@ const ansatte = [
         "efternavn": "Hensen",
         "email": "villy@cisco.com",
         "kode": "Nykode12",
-        "rettigheder": "Læse/Skrive lager",
-        "network": {ip: "", subnet: ""}          
+        "rettigheder": "Læse/Skrive lager"
     },
     {
         "id": 88012,
@@ -116,8 +105,7 @@ const ansatte = [
         "efternavn": "Holm",
         "email": "simon@cisco.com",
         "kode": "Nykode12",
-        "rettigheder": "Læse/Skrive lager",
-        "network": {ip: "", subnet: ""}            
+        "rettigheder": "Læse/Skrive lager"
     },
     {
         "id": 88013,
@@ -126,8 +114,7 @@ const ansatte = [
         "efternavn": "Odgaard",
         "email": "jason@cisco.com",
         "kode": "Nykode12",
-        "rettigheder": "Læse/Skrive lager",
-        "network": {ip: "", subnet: ""}             
+        "rettigheder": "Læse/Skrive lager"
     },
     {
         "id": 88014,
@@ -136,8 +123,7 @@ const ansatte = [
         "efternavn": "Andersen",
         "email": "julie@cisco.com",
         "kode": "Nykode12",
-        "rettigheder": "Læse/Skrive lager",
-        "network": {ip: "", subnet: ""}           
+        "rettigheder": "Læse/Skrive lager"
     },
 ]
 export default ansatte;
