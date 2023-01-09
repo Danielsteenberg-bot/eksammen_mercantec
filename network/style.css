@@ -121,7 +121,7 @@ img {
 
 /* IMG styles + aktiv */
 .first-img-container{
-    background-image: url(../assets/network/maciek-sulkowski-xtqNm3YOup8-unsplash.jpg);
+    background-image: url(../assets/network/fysisk.png);
     height: 80vh;
     width: 100vw;
     background-size: cover;
@@ -129,9 +129,9 @@ img {
 }
 
 .secound-img-container{
-    background-image: url(../assets/network/maciek-sulkowski-XtU9QnauM9k-unsplash.jpg);
+    background-image: url(../assets/network/typo.png);
     height: 80vh;
-    width: 100vw;
+    width: 90vw;
     background-size: cover;
     display: none;
 }
