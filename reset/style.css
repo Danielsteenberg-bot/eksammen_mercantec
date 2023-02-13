@@ -60,7 +60,7 @@ img {
 /* Content */
 
 .content-main{
-    height: 70vh;
+    height: 80vh;
     display: grid;
     justify-content: center;
     align-items: center;
